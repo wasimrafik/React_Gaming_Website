@@ -1,0 +1,109 @@
+header{
+  position: fixed;
+    background-color: transparent;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    transition: all 0.5s ease 0s;
+    width: 100vw;
+}
+.bg-blue {
+  background-color: #0d6efd !important;
+  transition: background-color 0.3s ease;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1{
+  font-size: 48px !important;
+}
+.bg-blue{
+  color: #fff;
+}
+.nav-link.active{
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.10);
+  padding: 0px 17px !important;
+  border-radius: 25px;
+  height: 3rem;
+  padding: 1rem !important;
+  text-align: center !important;
+  padding-bottom: 2.5rem !important;
+}
+.navbar-nav a{
+  color: #fff !important;
+  margin: 0px 20px;
+  font-size: 17px;
+}
+button.nav-btn{
+  text-transform: uppercase;
+
+}
+
+.rounded-pill{
+    margin-top: 0px;
+}
+
+
+
+
+@media screen and (max-width:769px) {
+ 
+}
+
+@media screen and (max-width:426px){
+  .navbar-nav{
+    border-radius: 0px 0px 25px 25px;
+  }
+  .nav-link.active{
+    background-color: #fff;
+    padding: 7px 17px !important;
+    border-radius: 0px;
+    color: #ee626b!important;
+  }
+  .navbar-nav a{
+    margin: 0px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    color: #000 !important;
+    text-align: center;
+  }
+  button.nav-btn{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    text-transform: capitalize;
+  }
+  .hero-card-col{
+    width: 96% !important;
+  }
+  .home-card{
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,104 @@
+
+const AllGames = [
+    {
+      "id": 0,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 20,
+      "type": "action",
+      "explore": "explore"
+    },
+    {
+      "id": 1,
+      "name": "assian creed",
+      "img": "../../assets/trending-03.jpg",
+      "price": 44,
+      "type": "adventure",
+      "explore": "explore"
+    },
+    {
+      "id": 2,
+      "name": "assian creed",
+      "img": "../../assets/trending-01.jpg",
+      "price": 55,
+      "type": "adventure",
+      "explore": "explore"
+    },
+    {
+      "id": 3,
+      "name": "assian creed",
+      "img": "../../assets/trending-02.jpg",
+      "price": 10,
+      "type": "adventure",
+      "explore": "explore"
+    },
+    {
+      "id": 4,
+      "name": "assian creed",
+      "img": "../../assets/trending-02.jpg",
+      "price": 30,
+      "type": "adventure",
+      "explore": "explore"
+    },
+    {
+      "id": 5,
+      "name": "assian creed",
+      "img": "../../assets/trending-03.jpg",
+      "price": 20,
+      "type": "startegy",
+      "explore": "explore"
+    },
+    {
+      "id": 6,
+      "name": "assian creed",
+      "img": "../../assets/trending-03.jpg",
+      "price": 100,
+      "type": "startegy",
+      "explore": "explore"
+    },
+    {
+      "id": 7,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 80,
+      "type": "startegy",
+      "explore": "explore",
+      "mostplayed": 2
+    },
+    {
+      "id": 8,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 30,
+      "type": "racing",
+      "explore": "explore",
+      "mostplayed": 3
+    },
+    {
+      "id": 9,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 20,
+      "type": "racing",
+      "explore": "explore",
+      "mostplayed": 5
+    },
+    {
+      "id": 10,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 20,
+      "type": "racing",
+      "explore": "explore",
+      "mostplayed": 1
+    },
+    {
+      "id": 11,
+      "name": "assian creed",
+      "img": "../../assets/trending-04.jpg",
+      "price": 70,
+      "type": "action",
+      "explore": "explore",
+      "mostplayed": 6
+    }
+  ]; 

@@ -1,0 +1,173 @@
+.ContactUsRow{
+    display: flex !important;
+    margin-top: 50px !important;
+}
+
+.ContactUsCard{
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+    padding: 60px;
+}
+
+.ContactUsCard h6 {
+    color: rgb(238, 98, 107);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ContactUsCard h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+}
+
+.ContactUsCard p {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ContactUsCard ul li span {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    margin-bottom: 5px;
+}
+
+.ContactUsCard ul li {
+    display: block;
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 30px;
+}
+
+Iframe {
+    position: "absolute";
+    width: 100%;
+    height: 325px;
+    border-radius: 23px;
+    z-index: 3;
+    padding: 0px !important;
+
+    touch-action: pan-x pan-y;
+}
+
+.ContactUsCardIframe{
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+form textarea {
+    width: 100%;
+    height: 130px;
+    border-radius: 25px;
+    padding: 20px 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:426px){
+    .bgIMG {
+        width: 34.9rem;
+    }
+    .ContactUsCard{
+        width: 25rem !important;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .ContactUsCardIframe{
+        width: 25rem !important;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    
+    }
+    .card-body{
+        width: 25rem !important;
+        padding: 0px;
+    }
+    form input {
+       margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:790px){
+    .bgIMG {
+        width: 47.2rem;
+        margin-right: 0px;
+    }
+    .ContactUsCard{
+        width: 41.2rem !important;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+    .ContactUsCardIframe{
+        width: 41.2rem !important;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    
+    }
+}
+
+@media screen and (min-width:790px) and (max-width:1025px){
+    .bgIMG {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .ContactUsCard{
+        width: 27.4rem !important;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+    .ContactUsCardIframe{
+        width: 28rem !important;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    
+    }
+}

@@ -1,0 +1,884 @@
+.MainBanner{
+    background-image: url(../../assets/page-heading-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 225px 0px;
+}
+.MainDivText{
+    text-align: center;
+    text-align: left;
+    
+}
+.AppNav{
+    /* margin-bottom: 10rem; */
+    background-color: #0071f8 !important;
+}
+.imgBanner{
+    border-radius: 25px;
+    height: 446px;
+    background-size: contain;
+    margin: 0 20px;
+}
+.text1{
+    font-size: 20px;
+}
+.text2{
+    font-size: 48px;
+    margin: 20px 0 40px;
+}
+.text3{
+    margin-bottom: 70px;
+}
+.searchText{
+    border-radius: 25px !important;
+    width: 450px !important;
+    height: 50px !important;
+    outline: none;
+    padding: 0px 25px !important;
+    font-size: 14px;
+    color: #7a7a7a;
+    border-radius: 25px !important;
+    /* border: none; */
+    
+}
+.searchbtn{
+    position: absolute;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    transition: all .3s;
+
+}
+
+.bg-blue{
+    background: #0d6efd !important;
+    transition: background-color 0.3s ease;
+}
+
+.sticky-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  header{
+    position: fixed;
+      background-color: transparent;
+      top: 40px;
+      left: 0px;
+      right: 0px;
+      z-index: 100;
+      transition: all 0.5s ease 0s;
+  }
+
+  .tool{
+    border-radius: 50%;
+    padding: 25px 19px;
+    font-size: 30px;
+  }
+  .price{
+    top: 18px;
+    right: 18px;
+    padding: 5px 14px;
+  }
+  .cardSec1{
+    width: 215px;
+    height: 205px;
+    top: -7rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+  .feature{
+    background-color: #0071f8 !important;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+  }
+  .cardSec1Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 30px;
+    border-radius: 100px !important;
+    
+  }
+  :root{
+    --bs-border-radius: 2rem
+  }
+  .featureimg{
+    width: 44px;
+    height: 44px;
+    margin: 22px;
+  }
+  .featureText{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+section{
+    /* background-image: none !important; */
+}
+  /* Tranding Home Section 1 start Here  */
+.Trandingimg{
+    width: 190px !important;
+    height: 160px !important;
+    border-radius: 20px;
+    margin-top: 20px !important;
+    margin-right: 10px !important;
+    position: relative;
+}
+
+.TopGameimg{
+    width: 150px !important;
+    height: 160px !important;
+    border-radius: 20px;
+    margin-top: 20px !important;
+    margin-right: 10px !important;
+    position: relative;
+}
+.trandingSpan{
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+    background-color: #008af8;
+    font-size: 17px;
+    text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 15px 6px 15px;
+}
+.trandingSpan em{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: line-through !important;
+    display: block;
+}
+
+.TrandingText{
+    display: flex; 
+}
+
+.TrandingTextImg{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* background: ; */
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #ee626b;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+
+.TrandingTextImgA{
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+
+.TrandingTopText a{
+ text-decoration: none;
+ display: inline-block;
+ background-color: #ee626b;
+ text-transform: uppercase;
+ color: #fff;
+ font-size: 14px;
+ font-weight: 600;
+ height: 50px;
+ line-height: 50px;
+ padding: 0px 30px;
+ border-radius: 25px;
+ transition: all .3s;
+}
+
+.TrandingTopText a:hover {
+    background-color: #0071f8;
+    color: #fff;
+}
+
+.TrandingTopText1{
+    margin-bottom: 50px;
+}
+.TrandingTopText1 h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.TrandingTopText1 h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+}
+
+
+/* Home Section 2 Start here  */
+
+.HomeSec2{
+    margin-top: 15rem;
+}
+
+.TopGameText1{
+    margin-bottom: 50px;
+}
+.TopGameText1 h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.TopGameText h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+}
+
+.TopGameText a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ee626b;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+   }
+   
+   .TopGameText a:hover {
+       background-color: #0071f8;
+       color: #fff;
+   }
+   
+   .TopGame1{
+    width: 100%;
+    margin-right: 20px;
+    /* overflow: hidden; */
+   }
+
+   .TopGame1 img{
+    width: 196px;
+    height: 196px;
+   }
+
+   .TopGameText2 {
+    padding: 20px 15px 8px 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+   .TopGameLink{
+    position: relative;
+   }
+
+   .TopGameLink a {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 15px;
+    background-color: #ee626b;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: translateX(-50%);
+    transition: all .3s;
+    bottom: -60px;
+    left: 50%;
+    text-decoration: none;
+}
+
+.TopGame1:hover a{
+    background-color: #0071f8;
+}
+
+.TopGame1:hover h4{
+    color: #0071f8;
+}
+
+.CategoryTopText{
+    text-align: center!important;
+    margin-bottom: 70px;
+}
+
+.CategoryTopText h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.CategoryTopText h2{
+font-size: 36px;
+font-weight: 700;
+text-transform: capitalize;
+line-height: 44px;
+}
+
+.CategoryImgText h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding: 22px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.CategoryImgText{
+    background-color: #0071f8;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.CategoryImgText img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+/* Home Section 4 Start Here  */
+
+.cta {
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.cta .row .col {
+    width: 41%;
+
+
+}
+
+.align-self-end {
+    display: flex;
+    align-self: flex-end !important;
+}
+
+.shop {
+    margin-top: 80px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 0.1px solid grey;
+    margin-right: 20px;
+}
+
+.subscribe {
+
+    border-radius: 25px;
+    padding: 80px 60px;
+    background-color: #fff;
+    border: 0.1px solid grey;
+    margin-left: 20px;
+}
+
+
+.ctaItem {
+    border-radius: 25px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaItem h6 {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ctaItem h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 44px;
+    margin-bottom: 50px;
+}
+
+.ctaItem em {
+    font-style: normal;
+    color: #0071f8;
+}
+
+.cta p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4a4a4a
+}
+
+.main-button a {
+    display: inline-block;
+    background-color: #ee626b;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+.cta .subscribe form {
+    position: relative;
+    max-width: 450px;
+    display: block;
+    margin-top: 0em;
+    text-align: center;
+}
+
+.cta .subscribe form input {
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.ctaformbtn {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .3s;
+}
+
+section.cta::after {
+    background-image: url(../../assets/top-game-02.jpg);
+    max-height: 510px;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    content: '';
+    border-radius: 25px;
+    left: 35%;
+    transform: translateX(-275px);
+    top: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:426px){
+    .MainDivText{
+        text-align: center;
+        color: #fff;
+    }
+
+    .searchTextDiv{
+        margin-bottom: 5rem;
+        margin-left: -2.5rem;
+    }
+    .searchText{
+        padding: 0px;
+    }
+    .searchbtn{
+        margin-top: -0rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+        width: 1rem !important;
+        height: 3.1rem;
+        margin-left: 10px;
+
+    }
+    .Tranding{
+    margin-left: 1rem !important;
+    }
+    .TrandingTopTextCol{
+        display: none;
+    }
+    .TrandingTopText1{
+        text-align: center;
+    }
+    .Trandingimg{
+        margin-left: 0rem;
+        width: 23rem !important;
+        height: 24em !important;
+    }
+    .TopGameimg{
+        margin-left: 1rem;
+        width: 24rem !important;
+        height: 24em !important;
+    }
+    .trandingSpan{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px !important;
+    }
+    .trandingSpan em{
+        font-size: 25px !important;
+        color: #bebebe !important;
+        text-decoration: line-through !important;
+    }
+    .TrandingText{
+        padding: 20px 20px !important;
+    }
+    .TrandingText span{
+        font-size: 20px !important;
+        margin-top: 20px !important;   
+    }
+
+    .TrandingText h4{
+        font-size: 25px !important;
+        margin-top: 10px !important;   
+    }
+    
+    .TrandingTextImg{
+        width: 50px !important;
+        height: 50px !important;
+        margin-left: 7rem !important;
+        
+    }
+    .TopGameCol{
+        margin-bottom: 4rem;
+    }
+    .TrandingTextImgA{
+        font-size: 25px !important; 
+        margin-bottom: 5rem !important;
+    }
+    .TopGameText1{
+       text-align: center; 
+       margin-left: 1rem;    
+       font-size: 25px !important;
+    }
+    .TopGameText1 h6{
+        font-size: 20px !important;
+     }
+     .TopGameText1 h2{
+        font-size: 30px !important;
+     }
+    .TopGameTextCol{
+        display: none;
+    }
+
+    .TopGameText2 span{
+        font-size: 25px !important; 
+    }
+
+    .TopGameText2 h4{
+        font-size: 30px !important; 
+    }
+    .TopGameLink a{
+        margin-top: 0px;
+    }
+    
+    .CategoryImgText{
+        margin-left: 1rem;
+    }
+
+    .shop{
+        margin-bottom: 2rem;
+    }
+    .ctaItem{
+        width: 90VW !important;
+        margin: 1rem 0rem;
+    }
+    .ctaItem1 h6{
+        margin: 1rem 0rem !important;
+
+    }
+    .ctaItem1 h2{
+        margin: 2rem 0rem !important;
+
+    }
+    .subscribe{
+        margin-left: 0px;
+        width: 90VW !important;
+    }
+    .ctaformbtn{
+        margin-top: 4rem;
+        margin-left: 3rem;
+        width: 15rem;
+    }
+    .cardSec1{
+        margin-left: 1rem;
+        width: 23rem;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:770px){
+    .MainDivText{
+        text-align: center;
+        color: #fff;
+    }
+
+    .searchTextDiv{
+        margin-bottom: 5rem;
+        margin-left: 8rem;
+    }
+    .searchText{
+        padding: 0px;
+    }
+    .searchbtn{
+        margin-top: -0rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+        width: 5rem !important;
+        height: 3.1rem;
+        margin-left: 10px;
+
+    }
+    .Tranding{
+    margin-left: -2rem !important;
+    }
+    .TrandingTopTextCol{
+        display: none;
+    }
+    .TrandingTopText1{
+        text-align: center;
+    }
+    .Trandingimg{
+        margin-left: 1rem;
+        width: 20rem !important;
+        height: 20em !important;
+    }
+    .TopGameimg{
+        margin-left: 1rem;
+        width: 20rem !important;
+        height: 20em !important;
+    }
+    .trandingSpan{
+        display: flex;
+        flex-direction: column;
+        font-size: 22px !important;
+    }
+    .trandingSpan em{
+        font-size: 22px !important;
+        color: #bebebe !important;
+        text-decoration: line-through !important;
+    }
+    .TrandingText{
+        padding: 20px 20px !important;
+    }
+    .TrandingText span{
+        font-size: 18px !important;
+        margin-top: 20px !important;   
+    }
+
+    .TrandingText h4{
+        font-size: 22px !important;
+        margin-top: 10px !important;   
+    }
+    
+    .TrandingTextImg{
+        width: 50px !important;
+        height: 50px !important;
+        margin-left: 6rem !important;
+        
+    }
+    .TopGameCol{
+        margin-bottom: 4rem;
+    }
+    .TrandingTextImgA{
+        font-size: 25px !important; 
+        margin-bottom: 5rem !important;
+    }
+    .TopGameText1{
+       text-align: center; 
+       margin-left: 1rem;    
+       font-size: 25px !important;
+    }
+    .TopGameText1 h6{
+        font-size: 20px !important;
+     }
+     .TopGameText1 h2{
+        font-size: 30px !important;
+     }
+    .TopGameTextCol{
+        display: none;
+    }
+
+    .TopGameText2 span{
+        font-size: 25px !important; 
+    }
+
+    .TopGameText2 h4{
+        font-size: 30px !important; 
+    }
+    .TopGameLink a{
+        margin-top: 0px;
+    }
+    
+    .CategoryImgText{
+        margin-left: 1rem;
+    }
+
+    .shop{
+        margin-bottom: 2rem;
+    }
+    .ctaItem{
+        width: 42rem !important;
+        margin: 2rem 0rem;
+    }
+    
+    .ctaItem1 h6{
+        margin: 1rem 0rem !important;
+
+    }
+    .ctaItem1 h2{
+        margin: 2rem 0rem !important;
+
+    }
+    .subscribe{
+        margin-left: 0px;
+        width: 42rem !important;
+    }
+    .ctaformbtn{
+        margin-top: 4rem;
+        width: 20rem;
+    }
+    .cardSec1{
+        margin-left: 1rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .Trandingimg{
+    width: 260px !important;
+    height: 260px !important;
+    border-radius: 20px;
+    margin-top: 20px !important;
+    margin-right: 10px !important;
+    }
+
+    .cardSec1 {
+        width: 260px;
+        height: 205px;
+    }
+
+    .ctaItem {
+        margin-left: -9rem;
+    }
+    .ctaItem1 {
+        margin-left: -9rem;
+    }
+    .TopGameimg{
+        width: 190px !important;
+        height: 205px;
+    }
+    .OurShopMain{
+        margin-left: 4rem !important;
+        width: 20rem !important;
+        }
+        
+        .OurShopImg{
+            /* margin-left: 10rem; */
+            width: 17.5rem !important;
+            height: 17.5rem !important;
+        }
+        
+        .OurShopImgSpan{
+            font-size: 20px !important;
+        }
+        .OurShopImgSpan em{
+            font-size: 20px !important;
+            color: #bebebe !important;
+        }
+        .OurShopMain{
+            padding: 20px 20px !important;
+        }
+        .OurShopTxt span{
+            font-size: 17px !important;
+            margin-top: 20px !important;   
+        }
+    
+        .OurShopTxt h4{
+            font-size: 20px !important;
+            margin-top: 10px !important;   
+        }
+        
+        .OurShopTxtImg{
+            width: 45px !important;
+            height: 45px !important;
+            margin-left: 5rem !important;
+        }
+        
+        .OurShopTxtImgA{
+            font-size: 20px !important; 
+        }
+}

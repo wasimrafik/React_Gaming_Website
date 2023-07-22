@@ -1,0 +1,67 @@
+footer {
+    margin-top: 150px;
+    background-color: #0071f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/banner-bg.jpg);
+    border-radius: 150px 150px 0px 0px;
+    width: 100vW !important;
+}
+
+footer.Row{
+    width: 100VW;
+}
+
+footer p{
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:426px){
+    footer {
+        margin-top: 150px;
+        background-color: #0071f8;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../../assets/banner-bg.jpg);
+        min-height: 150px;
+        border-radius: 100px 100px 0px 0px;
+    }
+    
+    footer p{
+        text-align: center;
+        line-height: 90px;
+        color: #fff;
+        font-size: 16px;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:426px){
+    footer {
+        width: 34.9rem;
+        margin-top: 150px;
+    }
+    footer p{
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:790px){
+    footer {
+        width: 47.2rem;
+        margin-top: 150px;
+
+    }
+    
+    footer p{
+        text-align: center;
+        padding-left: 10px;
+    }
+}

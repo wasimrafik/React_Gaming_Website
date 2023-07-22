@@ -1,0 +1,218 @@
+section{
+    background-image: url(../../assets/banner-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 100px 0px;
+    text-align: center;
+}
+
+
+.productheading h3{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.productheading span{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.productheading span a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.productheading .span2{
+    margin-left: 10px;
+}
+
+
+/* PDEXPlain CSS start here  */
+.PDEImg{
+    margin-top: 120px;
+}
+.SingleImgText h4{
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.SingleImgText span em{
+    font-style: normal;
+    color: #c8c8c8;
+    font-size: 22px;
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.SingleImgText span.price{
+    font-size: 27px;
+    font-weight: 700;
+    color: #0071f8; 
+}
+
+.SingleImgText p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.SingleImgText form input {
+    width: 80px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    border-radius: 25px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+
+.SingleImgText form button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+.SingleImgText ul {
+    margin-top: 60px;
+}
+
+.SingleImgText ul li span {
+    width: 120px;
+    display: inline-block;
+    color: #aaa;
+}
+.SingleImgText ul li {
+    display: block;
+    margin: 20px 0px;
+    font-size: 14px;
+    color: #0071f8;
+}
+.SingleImgText ul li span {
+    width: 120px;
+    display: inline-block;
+    color: #aaa;
+}
+
+
+
+/* PDReview sectrion start here  */
+
+.PDReview {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding: 100px 100px 0 120px;
+    transition: all 0.3s;
+}
+
+.PDTextP {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    text-align: justify;
+    padding: 0 130px !important;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:426px){
+    section{
+        width: 31.5rem;
+        padding: 200px 0px 100px 0px;
+        text-align: center;
+    }
+    
+    .PDEImg img {
+        width: 25rem;
+    }
+    .TrandingTopTextCol{
+        display: none;
+    }
+    .SingleImgText h4{
+        font-size: 27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .SingleImgText p {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .SingleImgText form input {
+        margin-bottom: 10px;
+    }
+    .SingleImgText form {
+       margin-bottom: 30px;
+    }
+    .PDReview {
+        background-color: #f7f7f7;
+        border-radius: 25px;
+        padding: 10px 10px 0 120px;
+        transition: all 0.3s;
+    }
+    
+    .PDTextP {
+        font-size: 20px;
+        padding: 0 130px !important;
+        font-weight: 400;
+        padding: 10px 20px 0 30px !important;
+    }
+    
+}
+
+@media screen and (max-width:426px){
+    footer {
+        width: 34.9rem;
+        margin-top: 150px;
+    }
+    footer p{
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:790px){
+    footer {
+        width: 47.2rem;
+        margin-top: 150px;
+
+    }
+    
+    footer p{
+        text-align: center;
+        padding-left: 10px;
+    }
+}
